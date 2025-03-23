@@ -1,6 +1,6 @@
 # Static Webpage Layout
 
-Create a single-page website using semantic HTML elements such as <header>, <nav>, <main>, and <footer>.
+Create a single-page website using semantic HTML elements such as header, nav, main, and footer.
 
 ## Requirements
 - Apply basic CSS styling for typography and colors.
