@@ -9,4 +9,4 @@ Build a card that includes an image, a title, and a description.
 ## Demo
 Below is a GIF demonstrating the card’s hover effects:
 
-![Card Hover Demo](output/demo.gif)
+![Card Hover Demo](https://github.com/HARISH6000/HTML-CSS/blob/main/task-2/output/demo.gif)
