@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down with css</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Taks 4</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a>Details</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#objective">Objective</a></li>
+                        <li><a href="#requirements">Requirements</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This is a simple static webpage built with HTML and CSS. It demonstrates semantic structure, basic styling, and responsiveness.</p>
+        </section>
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>Design a navigation bar with a dropdown submenu that appears on hover.</p>
+        </section>
+        <section id="requirements">
+            <h2>Requirements</h2>
+            <ol>
+                <li>Use nested elements for the menu and submenu.</li>
+                <li>Employ CSS pseudo-classes like :hover and transitions to create a smooth reveal effect.</li>
+                <li>Ensure that the menu looks good on both desktop and mobile (consider using a responsive fallback).</li>
+                
+            </ol>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For more information, please contact me at <a href="mailto:mail@gmail.com">email</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Task 4. All rights reserved.</p>
+    </footer>
+</body>
+</html>
