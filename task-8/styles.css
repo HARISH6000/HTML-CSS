@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.accordion input[type="checkbox"] {
+    display: none;
+}
+
+
+.accordion-label {
+    display: block;
+    padding: 15px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+.accordion-label:hover {
+    background: #e9e9e9;
+}
+
+
+.accordion-label::after {
+    content: '+';
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 0;
+    padding: 15px;
+}
+
+
+input[type="checkbox"]:checked + .accordion-label {
+    background: #ddd;
+}
+
+input[type="checkbox"]:checked + .accordion-label::after {
+    content: '−'; 
+    transform: rotate(180deg);
+}
+
+input[type="checkbox"]:checked + .accordion-label + .accordion-content {
+    max-height: 200px;
+}
