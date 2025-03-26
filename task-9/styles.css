@@ -18,7 +18,7 @@ body {
         "sidebar header"
         "sidebar main"
         "sidebar footer";
-    min-height: 90vh;
+    min-height: 100vh;
     gap: 0px;
     padding: 0px;
     max-width: 100%;
@@ -32,7 +32,7 @@ body {
     padding: 20px;
     position: sticky;
     top: 0px;
-    height: calc(100vh);
+    height: 100vh;
     z-index: 2;
 }
 
